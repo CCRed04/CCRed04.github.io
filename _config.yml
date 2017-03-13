@@ -1,0 +1,21 @@
+# Site settings
+title: Full Stack Mama
+header-img: img/home-bg.png
+email: cara.c.fort@gmail.com
+copyright_name: CCRed04
+description: > # this means to ignore newlines until "baseurl:"
+  Figuring what works, in code and in life.
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: pavo_creative
+github_username:  CCRed04
+learn_profile: CCRed04
+email_username: cara.c.fort@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
